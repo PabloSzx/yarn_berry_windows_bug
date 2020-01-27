@@ -2,6 +2,7 @@
   "name": "yarn_berry_windows_bug",
   "scripts": {
     "start": "node index.js",
+    "start_start": "yarn start",
     "start_yarn": "yarn node index.js",
     "cross_env": "cross-env HELLO=world node index.js",
     "other-1": "node index.js",
